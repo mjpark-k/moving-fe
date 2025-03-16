@@ -7,7 +7,7 @@
 
 
 
-<b>[Moving 바로가기](https://moving-fe-teal.vercel.app)</b> <br>
+<b>[Moving 바로가기](https://moving-service-psi.vercel.app/)</b> <br>
 
 <br> 
 </div>
