@@ -202,6 +202,11 @@
 ## <span id="roles">📝 5. 역할 분담</span>
 ### **김대건**
 
+<details>
+<summary>접기</summary>
+
+<br>
+
 🎶 **공통 컴포넌트**
 
 - 🔗 **[비로그인 레이아웃](https://github.com/moving-team/moving-fe/blob/main/src/layout/RendingLayout.tsx)**  
@@ -336,12 +341,16 @@
   </tr>
 </table>
 
-
-<br>
+</details>
 
 #### <p align="right"><a href="#top">TOP👆🏻</a></p>
 
 ### **김민서**
+
+<details>
+<summary>접기</summary>
+
+<br>
 
 🎶 **공통 컴포넌트**
 
@@ -500,12 +509,17 @@
     <td><img src="https://github.com/user-attachments/assets/1e2b67da-dded-4628-bc94-61895aeb6755" alt="모바일 버전 이미지"></td>
   </tr>
 </table>
- 
-<br>
+
+</details>
 
 #### <p align="right"><a href="#top">TOP👆🏻</a></p>
 
 ### **김효인**
+
+<details>
+<summary>접기</summary>
+
+<br>
 
 🎶 **공통 컴포넌트**
 - 🔗 **[알림 컴포넌트](https://github.com/moving-team/moving-fe/blob/main/src/components/nav/components/NotificationModal.tsx)**  
@@ -588,11 +602,16 @@
 - 각 기사님의 **프로필 카드**에는 상태에 따라 **확정 견적 뱃지**와 **지정 견적 요청 뱃지**와 **견적 금액**이 표시됩니다.  
 - **기사님 프로필 카드**를 클릭하면 해당 견적의 **견적 상세 페이지**로 이동하여 자세한 내용을 확인할 수 있습니다.  
 
-<br>
+</details>
 
 #### <p align="right"><a href="#top">TOP👆🏻</a></p>
 
 ### **박명준**
+
+<details>
+<summary>접기</summary>
+
+<br>
 
 🎶 **공통 컴포넌트**
 
@@ -703,11 +722,16 @@
 - 사용자가 존재하지 않는 페이지에 접근했을 때 표시되는 **에러 페이지**입니다.  
 - 잘못된 경로나 없는 페이지에 접근 시, **친절한 안내 메시지**와 함께 **메인 페이지** 로 이동할 수 있는 버튼을 제공합니다.  
 
-<br>
+</details>
 
 #### <p align="right"><a href="#top">TOP👆🏻</a></p>
 
 ### 이율리
+
+<details>
+<summary>접기</summary>
+
+<br>
 
 🎶 **공통 컴포넌트**
 
@@ -862,11 +886,9 @@
 - 🔗 **[404 에러 페이지](https://github.com/moving-team/moving-fe/blob/main/src/components/404/NotFound.tsx)** - [**박명준**](https://github.com/mjpark-k)  
   : 잘못된 경로 접근 시 안내 메시지와 메인 페이지 이동 버튼 제공
 
-
+</details>
 
 #### <p align="right"><a href="#top">TOP👆🏻</a></p>
-
-<br>
 
 ## <span id="convention">🖌️ 7. 컨벤션</span>
 
@@ -1007,134 +1029,18 @@
 - **.eslintrc**: 코드 품질 유지를 위한 ESLint 설정 파일.  
 - **.prettierrc**: 코드 스타일 유지를 위한 Prettier 설정 파일.  
 - **package.json**: 프로젝트 의존성, 스크립트 및 메타데이터 관리.  
-- **tsconfig.json**: 타입스크립트 컴파일러 설정 파일.  
+- **tsconfig.json**: 타입스크립트 컴파일러 설정 파일.
+
+<br>
+
+<details>
+<summary>📁 파일 구조 보기</summary>
 
 ```
 🌿src
  ┣ 🖼️assets
  ┃ ┣ 📂icons
- ┃ ┃ ┣ 📜ic_active_filter.svg
- ┃ ┃ ┣ 📜ic_active_filter_medium.svg
- ┃ ┃ ┣ 📜ic_alarm_large.svg
- ┃ ┃ ┣ 📜ic_alarm_medium.svg
- ┃ ┃ ┣ 📜ic_box_large.svg
- ┃ ┃ ┣ 📜ic_box_medium.svg
- ┃ ┃ ┣ 📜ic_check_box_large.svg
- ┃ ┃ ┣ 📜ic_check_box_medium.svg
- ┃ ┃ ┣ 📜ic_check_circle_empty_large.svg
- ┃ ┃ ┣ 📜ic_check_circle_empty_medium.svg
- ┃ ┃ ┣ 📜ic_check_circle_large.svg
- ┃ ┃ ┣ 📜ic_check_circle_medium.svg
- ┃ ┃ ┣ 📜ic_check_large.svg
- ┃ ┃ ┣ 📜ic_check_medium.svg
- ┃ ┃ ┣ 📜ic_clip_large.svg
- ┃ ┃ ┣ 📜ic_clip_medium.svg
- ┃ ┃ ┣ 📜ic_company_large.svg
- ┃ ┃ ┣ 📜ic_company_medium.svg
- ┃ ┃ ┣ 📜ic_document_large.svg
- ┃ ┃ ┣ 📜ic_document_medium.svg
- ┃ ┃ ┣ 📜ic_empty_check_box_large.svg
- ┃ ┃ ┣ 📜ic_empty_check_box_medium.svg
- ┃ ┃ ┣ 📜ic_empty_check_circle_large.svg
- ┃ ┃ ┣ 📜ic_empty_check_circle_medium.svg
- ┃ ┃ ┣ 📜ic_empty_heart_large.svg
- ┃ ┃ ┣ 📜ic_empty_heart_medium.svg
- ┃ ┃ ┣ 📜ic_empty_heart_small.svg
- ┃ ┃ ┣ 📜ic_empty_star_large.svg
- ┃ ┃ ┣ 📜ic_empty_star_medium.svg
- ┃ ┃ ┣ 📜ic_empty_star_small.svg
- ┃ ┃ ┣ 📜ic_eye_close.svg
- ┃ ┃ ┣ 📜ic_eye_open.svg
- ┃ ┃ ┣ 📜ic_filter_large.svg
- ┃ ┃ ┣ 📜ic_filter_medium.svg
- ┃ ┃ ┣ 📜ic_full_heart_large.svg
- ┃ ┃ ┣ 📜ic_full_heart_medium.svg
- ┃ ┃ ┣ 📜ic_full_heart_small.svg
- ┃ ┃ ┣ 📜ic_full_star_large.svg
- ┃ ┃ ┣ 📜ic_full_star_medium.svg
- ┃ ┃ ┣ 📜ic_full_star_small.svg
- ┃ ┃ ┣ 📜ic_home_large.svg
- ┃ ┃ ┣ 📜ic_home_medium.svg
- ┃ ┃ ┣ 📜ic_inactive_filter.svg
- ┃ ┃ ┣ 📜ic_inactive_filter_medium.svg
- ┃ ┃ ┣ 📜ic_info_large.svg
- ┃ ┃ ┣ 📜ic_info_medium.svg
- ┃ ┃ ┣ 📜ic_menu_large.svg
- ┃ ┃ ┣ 📜ic_menu_medium.svg
- ┃ ┃ ┣ 📜ic_mini_star.svg
- ┃ ┃ ┣ 📜ic_noItems.svg
- ┃ ┃ ┣ 📜ic_profile_large.svg
- ┃ ┃ ┣ 📜ic_profile_medium.svg
- ┃ ┃ ┣ 📜ic_profile_upload_large.svg
- ┃ ┃ ┣ 📜ic_profile_upload_medium.svg
- ┃ ┃ ┣ 📜ic_progress_bar_large.svg
- ┃ ┃ ┣ 📜ic_progress_bar_medium.svg
- ┃ ┃ ┣ 📜ic_review_bar_large.svg
- ┃ ┃ ┣ 📜ic_review_bar_medium.svg
- ┃ ┃ ┣ 📜ic_search_large.svg
- ┃ ┃ ┣ 📜ic_search_medium.svg
- ┃ ┃ ┣ 📜ic_share_facebook_large.svg
- ┃ ┃ ┣ 📜ic_share_facebook_medium.svg
- ┃ ┃ ┣ 📜ic_share_kakao_large.svg
- ┃ ┃ ┣ 📜ic_share_kakao_medium.svg
- ┃ ┃ ┣ 📜ic_share_large.svg
- ┃ ┃ ┣ 📜ic_share_medium.svg
- ┃ ┃ ┣ 📜ic_vector_down_large.svg
- ┃ ┃ ┣ 📜ic_vector_down_medium.svg
- ┃ ┃ ┣ 📜ic_vector_down_small.svg
- ┃ ┃ ┣ 📜ic_vector_left_large.svg
- ┃ ┃ ┣ 📜ic_vector_left_medium.svg
- ┃ ┃ ┣ 📜ic_vector_right_large.svg
- ┃ ┃ ┣ 📜ic_vector_right_medium.svg
- ┃ ┃ ┣ 📜ic_vector_top_large.svg
- ┃ ┃ ┣ 📜ic_vector_top_medium.svg
- ┃ ┃ ┣ 📜ic_vector_top_small.svg
- ┃ ┃ ┣ 📜ic_writing_gray.svg
- ┃ ┃ ┣ 📜ic_writing_large.svg
- ┃ ┃ ┣ 📜ic_writing_medium.svg
- ┃ ┃ ┣ 📜ic_x_circle_large.svg
- ┃ ┃ ┣ 📜ic_x_circle_medium.svg
- ┃ ┃ ┣ 📜ic_x_large.svg
- ┃ ┃ ┣ 📜ic_x_medium.svg
- ┃ ┃ ┣ 📜ic_yellow_star_large.svg
- ┃ ┃ ┣ 📜ic_yellow_star_medium.svg
- ┃ ┃ ┗ 📜ic_yellow_star_small.svg
  ┃ ┗ 📂images
- ┃ ┃ ┣ 📜img_avatar_blue_large.svg
- ┃ ┃ ┣ 📜img_avatar_blue_medium.svg
- ┃ ┃ ┣ 📜img_avatar_green_large.svg
- ┃ ┃ ┣ 📜img_avatar_green_medium.svg
- ┃ ┃ ┣ 📜img_avatar_pink_large.svg
- ┃ ┃ ┣ 📜img_avatar_pink_medium.svg
- ┃ ┃ ┣ 📜img_avatar_purple_large.svg
- ┃ ┃ ┣ 📜img_avatar_purple_medium.svg
- ┃ ┃ ┣ 📜img_avatar_yellow_large.svg
- ┃ ┃ ┣ 📜img_avatar_yellow_medium.svg
- ┃ ┃ ┣ 📜img_car_large.svg
- ┃ ┃ ┣ 📜img_car_medium.svg
- ┃ ┃ ┣ 📜img_empty_review_large.svg
- ┃ ┃ ┣ 📜img_empty_review_medium.svg
- ┃ ┃ ┣ 📜img_landing_01_large.svg
- ┃ ┃ ┣ 📜img_landing_01_medium.svg
- ┃ ┃ ┣ 📜img_landing_02_large.svg
- ┃ ┃ ┣ 📜img_landing_02_medium.svg
- ┃ ┃ ┣ 📜img_landing_03_large.svg
- ┃ ┃ ┣ 📜img_landing_03_medium.svg
- ┃ ┃ ┣ 📜img_login_google_large.svg
- ┃ ┃ ┣ 📜img_login_google_medium.svg
- ┃ ┃ ┣ 📜img_login_kakao_large.svg
- ┃ ┃ ┣ 📜img_login_kakao_medium.svg
- ┃ ┃ ┣ 📜img_login_naver_large.svg
- ┃ ┃ ┣ 📜img_login_naver_medium.svg
- ┃ ┃ ┣ 📜img_logo_icon_text_medium.svg
- ┃ ┃ ┣ 📜img_logo_icon_text_small.svg
- ┃ ┃ ┣ 📜img_logo_icon_text_xlarge.svg
- ┃ ┃ ┣ 📜img_logo_text_large.svg
- ┃ ┃ ┣ 📜img_logo_text_medium.svg
- ┃ ┃ ┣ 📜img_logo_text_small.svg
- ┃ ┃ ┣ 📜img_logo_text_xlarge.svg
- ┃ ┃ ┣ 📜img_profile_large.svg
- ┃ ┃ ┗ 📜img_profile_medium.svg
  ┣ 🎶components
  ┃ ┣ 📂404
  ┃ ┃ ┣ 📜NotFound.module.css
@@ -1432,6 +1338,8 @@
  ┣ 📜react-app-env.d.ts
  ┗ 📜root.tsx
 ```
+
+</details>
 
 <br>
 
