@@ -9,6 +9,14 @@
 
 <b>[Moving 바로가기](https://moving-service-psi.vercel.app/)</b> <br>
 
+### ✅ 테스트 계정
+
+| 역할     | ID                      | 비밀번호     |
+|--------|------------------------|------------|
+| 소비자   | `moving@test.com`    | `qwer1234!` |
+| 소비자   | `super105@test.com`    | `12341234` |
+| 기사님   | `super301@test.com`|  `12341234`
+
 <br> 
 </div>
 
